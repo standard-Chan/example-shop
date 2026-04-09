@@ -1,5 +1,6 @@
 package code.exampleshop.application.payment.dto;
 
-public class ApprovePaymentCommand {
-    ApprovePaymentCommand() {}
+public record ApprovePaymentCommand(
+    Long paymentId
+) {
 }
